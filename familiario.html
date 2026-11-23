@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>familiario — sof.me</title>
+  <meta name="description" content="Familiario: juego interactivo para niñeces y adolescencias en el museo de los DDHH.">
+  <link rel="preload" href="fonts/BlinkMacSystemFont.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="icon" href="assets/espada-cursor.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sword" aria-hidden="true"><img src="assets/espada.png" alt=""></div>
+
+  <main>
+      <!-- botón volver: estrella braille que se deshace en puntitos -->
+      <a class="back-star" href="index.html" aria-label="Volver atrás"><pre class="back-star__art" aria-hidden="true">⠀⠀⠀⣆⠀⠀⠀
+⠀⠀⢀⣿⡀⠀⠀
+⠤⠶⣿⣿⣿⠶⠤
+⠀⠀⠈⣿⠁⠀⠀
+⠀⠀⠀⠏⠀⠀⠀</pre><span class="back-star__label">volver</span></a>
+    <section class="page project fam">
+      <a class="home-link" href="index.html" aria-label="sof.me, volver al inicio">sof.me</a>
+
+      <header class="project__head">
+        <h1 class="project__title">FAMILIARIO</h1>
+        <p class="project__desc">Juego interactivo diseñado para niñeces y adolescencias, en el marco del año temático en el museo de los DDHH: "Memoria joven: Voces de niñez y adolescencia".<br>Derecho a vivir en familia.</p>
+      </header>
+
+      <figure class="fam__panel"><img src="img/familiario-panel.jpg" alt="Tablero del juego Familiario"></figure>
+
+      <div class="fam__fotos">
+        <figure><img src="img/familiario-tablero-foto.jpg" alt="Tablero de Familiario en exhibición, con las figuras que fueron dejando quienes jugaron" loading="lazy"></figure>
+        <figure><img src="img/familiario-jugando.jpg" alt="Dos personas jugando Familiario frente al tablero, una saca figuras de la caja" loading="lazy"></figure>
+      </div>
+
+
+      <p class="project__desc project__desc--end">El derecho se aborda desde lo emocional y crítico. Se invita a reconocer y cuestionar sentires hacia el núcleo familiar. No hay respuestas correctas ni únicas, con esto, no se imponen definiciones ni formas específicas de cómo se ve una familia. Se valida lo diverso de ellas, representandose en emociones. ¿Qué figura elijo? ¿Qué emoción representa? ¿A quién? ¿Por qué? El juego fomenta introspección, espacio seguro, reflexión y diálogo.</p>
+
+      <div class="marquee" aria-hidden="true"><div class="marquee__track" data-text="familiario"></div></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
