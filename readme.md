@@ -6,6 +6,8 @@
 
 Link figma: https://www.figma.com/design/ObKZKYKrlAGHDHDiv9G2FQ/portafolio?node-id=4-5&t=LHoLE5P2Awa4Iusx-1
 
+Link portafolio: https://sofi3matus.github.io/portafolio/
+
 ---
 
 ## Sobre el proyecto
